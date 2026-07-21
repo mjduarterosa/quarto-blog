@@ -1,0 +1,12 @@
+{
+  "hash": "93ab917d5f55a793b7260fd4287d3dc4",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Removing background from GenAI art\"\ndescription: |\n  We all deserve transparency\nauthor: Tom Mock\ndate: 2023-09-15\nimage: howard-robot-goggles_transparent.png\nexecute: \n  cache: true\ncategories:\n  - magick\n---\n\nGenerative AI created art from tools like Midjourney is quite fun for creating unique images. However, the background is typically at best a solid color.\n\nThis post is a quick but useful tip for removing the background from GenAI art. I'll use the always helpful `magick` package.\n\n::: {#304138bf .cell execution_count=1}\n``` {.python .cell-code}\nprint(\"Hello World!\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nHello World!\n```\n:::\n:::\n\n\n![](howard-robot-goggles_transparent.png){width=400px}\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

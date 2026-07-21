@@ -14,8 +14,6 @@ website:
     right:
       - text: "Blog"
         file: index.qmd
-      - text: "TIL"
-        file: til.qmd
       - text: "Resources"
         file: static/resources/resources.qmd
       - text: "About"

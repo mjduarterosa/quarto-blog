@@ -6,3 +6,5 @@
 .DS_Store
 _backlog
 /.quarto/
+
+**/*.quarto_ipynb

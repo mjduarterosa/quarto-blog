@@ -1,7 +1,4 @@
 ---
-twitter-card:
-  image: images/profile-preview.png
-  creator: "@thomas_mock"
 open-graph: true
 title: "Tom Mock"
 description: |
@@ -11,9 +8,6 @@ image: images/profile-preview.png
 about:
   template: trestles
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/thomas_mock
     - icon: github
       text: Github
       href: https://github.com/jthomasmock
@@ -22,11 +16,6 @@ about:
       href: https://fosstodon.org/@thomas_mock
 
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="thomasmock" data-color="#5F7FFF" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 

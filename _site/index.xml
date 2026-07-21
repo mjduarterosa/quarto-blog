@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>The MockUp</title>
+<link>https://themockup.blog/</link>
+<atom:link href="https://themockup.blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Data science tips brought to you by Tom Mock</description>
+<image>
+<url>https://themockup.blog/themockup.png</url>
+<title>The MockUp</title>
+<link>https://themockup.blog/</link>
+<height>104</height>
+<width>144</width>
+</image>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Thu, 14 Sep 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Removing background from GenAI art</title>
+  <dc:creator>Tom Mock</dc:creator>
+  <link>https://themockup.blog/posts/2023-09-15-removing-backgrounds-from-generated-art/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Generative AI created art from tools like Midjourney is quite fun for creating unique images. However, the background is typically at best a solid color.</p>
+<p>This post is a quick but useful tip for removing the background from GenAI art. I’ll use the always helpful <code>magick</code> package.</p>
+<div id="304138bf" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Hello World!"</span>)</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Hello World!</code></pre>
+</div>
+</div>
+<p><img src="https://themockup.blog/posts/2023-09-15-removing-backgrounds-from-generated-art/howard-robot-goggles_transparent.png" class="img-fluid" width="400"></p>
+
+
+
+ ]]></description>
+  <category>magick</category>
+  <guid>https://themockup.blog/posts/2023-09-15-removing-backgrounds-from-generated-art/</guid>
+  <pubDate>Thu, 14 Sep 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://themockup.blog/posts/2023-09-15-removing-backgrounds-from-generated-art/howard-robot-goggles_transparent.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>

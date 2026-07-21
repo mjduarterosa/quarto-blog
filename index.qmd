@@ -24,48 +24,4 @@ Want to support my blog? <a href="https://www.buymeacoffee.com/thomasmock" targe
 <a rel="me" href="https://fosstodon.org/@thomas_mock"></a>
 
 
-```{r write-redirects}
-#| echo: false
-# list names of post folders, 
-# adapted from Dr. Danielle Navarro,
-# a legit Data Witch
-# https://blog.djnavarro.net/porting-to-quarto/#netlify-redirects
-
-posts <- list.dirs(
-  path = here::here("posts"),
-  full.names = FALSE,
-  recursive = FALSE
-)
-
-# extract the slugs
-slugs <- stringr::str_remove(posts, "\\d{4}-\\d{2}-\\d{2}-(?!\\d)")
-
-# lines to insert to a netlify _redirect file
-redirects <- paste0("/", slugs, " ", "/posts/", posts)
-
-# write the _redirect file
-writeLines(redirects, here::here("_site", "_redirects"))
-```
-
-
-```{r write-tags}
-#| echo: false
-
-library(rvest)
-library(xml2)
-
-raw_html <- read_html(here::here("_site/index.html"))
-
-length_tags <- raw_html |> 
-  html_nodes("#quarto-margin-sidebar > div > div") |> 
-  length()
-
-all_tags <- sapply(seq_len(length_tags), function(x){
-  html_nodes(raw_html, xpath = glue::glue('//*[@id="quarto-margin-sidebar"]/div/div[{x}]/text()')) |> 
-    html_text(trim = TRUE)
-  })
-
-all_tags[all_tags != "All"] |> 
-  readr::write_lines(here::here("_data/unique_categories.txt"))
-```
 

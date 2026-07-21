@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "The MockUp",
+    "section": "",
+    "text": "This is my personal blog, you can find it at TheMockup.blog."
+  },
+  {
+    "objectID": "readme.html#the-mockup-blog",
+    "href": "readme.html#the-mockup-blog",
+    "title": "The MockUp",
+    "section": "",
+    "text": "This is my personal blog, you can find it at TheMockup.blog."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The MockUp",
+    "section": "",
+    "text": "Want to support my blog? \n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\n\n\n\n\n\n\nRemoving background from GenAI art\n\n\nWe all deserve transparency\n\n\n\n\n\n2023-09-15\n\n1 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#current-state",
+    "href": "about.html#current-state",
+    "title": "Tom Mock",
+    "section": "Current State",
+    "text": "Current State\nI fell in love with R and data science through my graduate research, using R and RStudio to wrangle, analyze, model, and visualize my data. I became passionate about growing the R community, and founded #TidyTuesday to help newcomers and seasoned vets improve their Tidyverse skills.\nI am a Product Manager at Posit, overseeing the Posit Workbench and RStudio team.\nIn my home town of San Antonio, my wife and I run on the local trails, play with our Boston Terrier “Howard”, spend lots of time with our local families, grill/smoke plenty of meat, and are always on the lookout for great new food, especially churros."
+  },
+  {
+    "objectID": "posts/2023-09-15-removing-backgrounds-from-generated-art/index.html",
+    "href": "posts/2023-09-15-removing-backgrounds-from-generated-art/index.html",
+    "title": "Removing background from GenAI art",
+    "section": "",
+    "text": "Generative AI created art from tools like Midjourney is quite fun for creating unique images. However, the background is typically at best a solid color.\nThis post is a quick but useful tip for removing the background from GenAI art. I’ll use the always helpful magick package.\n\nprint(\"Hello World!\")\n\nHello World!"
+  },
+  {
+    "objectID": "static/resources/resources.html",
+    "href": "static/resources/resources.html",
+    "title": " ",
+    "section": "",
+    "text": "Title\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "static/resources/resources.html#resources",
+    "href": "static/resources/resources.html#resources",
+    "title": " ",
+    "section": "",
+    "text": "Title\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "static/resources/resources.html#presentations",
+    "href": "static/resources/resources.html#presentations",
+    "title": " ",
+    "section": "Presentations",
+    "text": "Presentations"
+  },
+  {
+    "objectID": "static/resources/resources.html#random",
+    "href": "static/resources/resources.html#random",
+    "title": " ",
+    "section": "Random",
+    "text": "Random\nFavorite Cocktail Recipes"
+  }
+]
