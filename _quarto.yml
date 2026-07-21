@@ -8,10 +8,6 @@ website:
   image: themockup.png
   repo-url: https://github.com/jthomasmock/themockup-blog
   open-graph: true
-  twitter-card:
-    image: themockup.png
-    creator: "@thomas_mock"
-    card-style: summary_large_image
   site-url: https://themockup.blog
   navbar:
     search: true
@@ -26,23 +22,13 @@ website:
         file: about.qmd
       - icon: github
         href: https://github.com/jthomasmock
-      - icon: twitter
-        href: https://twitter.com/thomas_mock
-      - icon: mastodon
-        href: https://fosstodon.org/@thomas_mock
       - icon: rss
         href: index.xml
-      - icon: table
-        href: https://jthomasmock.github.io/gtExtras/
       - icon: cup-straw
         href: https://drinksbytom.com
 format:
   html:
     author: "Tom Mock"
-    twitter-card:
-      creator: "@thomas_mock"
-      image: "https://themockup.blog/themockup.png"
-      card-style: summary_large_image
     comments:
       utterances:
         repo: jthomasmock/themockup-blog
