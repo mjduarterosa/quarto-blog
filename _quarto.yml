@@ -4,8 +4,8 @@ project:
 website:
   title: "data-limite"
   description: "open data, data science, visualization by MJ Duarte Rosa"
-  favicon: themockup.png
-  image: themockup.png
+  favicon: map_arvores_app.png
+  image: map_arvores_app.png
   repo-url: https://github.com/mjduarterosa/quarto-blog
   open-graph: true
   site-url: https://github.com/mjduarterosa/quarto-blog
