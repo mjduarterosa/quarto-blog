@@ -1,3 +1,3 @@
 ## The Mockup Blog
 
-This is my personal blog, you can find it at [TheMockup.blog](https://themockup.blog/).
+This is my personal blog. Experimenting with Quarto.
