@@ -23,7 +23,4 @@ resources:
 
 ## Presentations
 
-
 ## Random
-
-[Favorite Cocktail Recipes](https://drinksbytom.com/)
