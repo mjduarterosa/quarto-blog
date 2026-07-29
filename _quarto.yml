@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: "The MockUp"
-  description: "Data science tips brought to you by Tom Mock"
+  title: "data-limite"
+  description: "open data, data science, visualization by MJ Duarte Rosa"
   favicon: themockup.png
   image: themockup.png
-  repo-url: https://github.com/jthomasmock/themockup-blog
+  repo-url: https://github.com/mjduarterosa/quarto-blog
   open-graph: true
-  site-url: https://themockup.blog
+  site-url: https://github.com/mjduarterosa/quarto-blog
   navbar:
     search: true
     right:
@@ -19,17 +19,17 @@ website:
       - text: "About"
         file: about.qmd
       - icon: github
-        href: https://github.com/jthomasmock
+        href: https://github.com/mjduarterosa
       - icon: rss
         href: index.xml
       - icon: cup-straw
         href: https://drinksbytom.com
 format:
   html:
-    author: "Tom Mock"
+    author: "MJ Duarte Rosa"
     comments:
       utterances:
-        repo: jthomasmock/themockup-blog
+        repo: mjduarterosa/quarto-blog
     toc: true
     toc-location: "left"
     code-link: true
