@@ -1,23 +1,21 @@
 ---
-title: "Removing background from GenAI art"
+title: "Data Visualization of Lisbon's trees in public spaces."
 description: |
-  We all deserve transparency
-author: Tom Mock
-date: 2023-09-15
-image: howard-robot-goggles_transparent.png
+  We all deserve trees.
+author: M . J. Duarte Rosa
+date: 2026-07-28
+image: map_arvores_app.png
 execute: 
   cache: true
 categories:
   - magick
 ---
 
-Generative AI created art from tools like Midjourney is quite fun for creating unique images. However, the background is typically at best a solid color.
-
-This post is a quick but useful tip for removing the background from GenAI art. I'll use the always helpful `magick` package.
+Bakjghadkgj adkjfhgakdjfg akjghadkfga adfjkghadfkgja dfkghadkfjg arjghadkfhg.
 
 ```{python}
 print("Hello World!")
 ```
 
-![](howard-robot-goggles_transparent.png){width=400px}
+![](map_arvores_app.png){width=400px}
 
