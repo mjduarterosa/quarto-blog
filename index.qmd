@@ -8,7 +8,7 @@ listing:
     - "title desc"
   type: default
   image-height: 150px
-  image-placeholder: "themockup.png"
+  image-placeholder: "map_arvores_app.png"
   fields: [image, title, description, date, reading-time]
   categories: true
   date-format: "YYYY-MM-DD"
